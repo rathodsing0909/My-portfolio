@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+    <!-- Side-Navbar-section -->
+
+    <aside>
+        <h1 id="heading">RAJ</h1>
+        <ul>
+            <li><a onclick="homeBtn()">Home</a></li>
+            <li><a onclick="aboutBtn()">About Us</a></li>
+            <li><a onclick="portfolioBtn()">Portfolio</a></li>
+            <li><a onclick="contBtn()">Contact</a></li>
+        </ul>
+    </aside>
+
+    <!-- Home-Section -->
+
+    <main id="home">
+         <h2 style="border-bottom: 5px double orange; width: 160px; border-radius: 20px; text-align: center;">Home</h2>
+        <div class="row" style="margin-top: 50px; margin-left: 50px;">
+            <div class="col">
+                <h3 style="font-weight: 800;">Hello, my name is <span
+                        style="color: orange;  font-size: 25px;">Yuvraj</span></h3>
+                <h1>I'm </h1><span class="auto-typed" style="color: orange; font-weight: 800; font-size: 30px;"></span>
+                <p>I’m a web designer and developer skilled in creating responsive, user-focused websites — from front-end design to back-end functionality using PHP, MySQL, and more.</p>
+                <button onclick="aboutBtn()"
+                    style="width: 200px; padding: 5px; border-radius: 50px; font-size: 18px; font-weight: 800px; color: white; background-color: orange; margin-top: 50px;">More
+                    About Us</button>
+            </div>
+            <div class="col">
+                <div id="photo">
+                    <div id="card">
+                        <!-- <h4>Hello I'm yuvraj</h4> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- About-Section -->
+
+    <div id="about" style="background-color: black; color: white; padding: 20px;">
+        <div id="abDetails">
+        <h2 style="border-bottom: 5px double orange; width: 160px; border-radius: 20px; text-align: center;">About Me
+        </h2> <br><br>
+        <h5>I'm Yuvraj Rathod <span style="color: orange;">Web Developer</span></h5>
+        <p>Hi, I’m Yuvraj Rathod, a web designer turning ideas into interactive, user-friendly websites. I specialize in designing responsive, SEO-friendly, and visually engaging digital experiences using tools like Figma, Webflow, and WordPress.
+        </p>
+        <div class="row">
+            <div class="col" style="color: white;">
+                <b>DOB:</b>
+                12 March 2007 <br>
+                <b>Education:</b>
+                12th Pass (MP Board)
+            </div>
+            <div class="col" style="color: white;">
+                <b>Website:</b>
+                www.index.com
+                <br>
+                <b>City:</b>
+                Dewas <br>
+                <b>Phone</b>
+                8226075452
+            </div>
+            <div class="col">
+                <h3>Skills</h3>
+                <span style="color: orange;  font-size: 25px;">HTML5</span> <br>
+                <span style="color: orange;  font-size: 25px;">CSS</span> <br>
+                 <span style="color: orange;  font-size: 25px;">Bootstrap5</span> <br>
+                  <span style="color: orange;  font-size: 25px;">Jquery</span><br>
+                <span style="color: orange;  font-size: 25px;">JavaScript</span> <br>
+                 <span style="color: orange;  font-size: 25px;">php</span> <br>
+            </div>
+        </div>
+        <button id="myResume"
+            style="width: 200px; padding: 5px; border-radius: 50px; font-size: 18px; font-weight: 800px; color: white; background-color: orange; margin-top: 20px;">Download
+            CV</button>
+            </div>
+
+           <div id="resumeCv" style="height: 700px; margin-left: 200px; width: 50%; display: none; text-align: center;">
+            <img src="back icon.png" id="backBtn" alt="" style="height: 50px; width: 50px; border-radius: 10px; left: 20px; position: absolute;">
+            <h4>Resume</h4>
+            <img src="My Resume.png" alt="" height="600px">
+            <button
+            style="width: 150px; padding: 5px; border-radius: 50px; font-size: 17px; font-weight: 800px; color: white; background-color: orange; top: 20px; right: 30px; position: absolute;">Download</button>
+           </div>
+
+    </div>   
+    <!-- Portfolio-section -->
+
+    <div id="portfolio" style=" height: 700px; color: white; background-color: black;">
+            <h2 style="border-bottom: 5px double orange; width: 170px; border-radius: 20px; text-align: center;">Portfolio
+        </h2> <br><br>
+        <h4>My Last Projects</h4>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="cloths bg.jpg" alt="" style="width: 18rem; height: 200px;  background-size: cover;">
+                        <div class="innerBox">
+                            <h4>StylePass</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sapiente odio? Id sequi officiis molestias reiciendis laboriosam omnis mollitia.
+                                 <br> <br>
+                                <button style="height: 30px; width: 80px; border-radius: 10px; background-color: orange; border: none; ">Open</button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="col">
+                <div class="card" style="width: 18rem; height: 200px; background-image: url(CM-HELPLINE.jpg); background-size: cover;">
+                     <div class="innerBox">
+                            <h4>CM-Help Line</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sapiente odio? Id sequi officiis molestias reiciendis laboriosam omnis mollitia.
+                                 <br> <br>
+                                <button style="height: 30px; width: 80px; border-radius: 10px; background-color: orange; border: none; ">Open</button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="col">
+                <div class="card" style="width: 18rem; height: 200px; background-image: url(kbiefl7u.png); background-size: cover;">
+                     <div class="innerBox">
+                            <h4>Domino's</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sapiente odio? Id sequi officiis molestias reiciendis laboriosam omnis mollitia.
+                                 <br> <br>
+                                <button style="height: 30px; width: 80px; border-radius: 10px; background-color: orange; border: none; ">Open</button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    
+        </div>
+
+         <div class="row" style="margin-top: 30px;">
+            <div class="col">
+                <div class="card" style="width: 18rem; height: 200px; background-image: url(); background-size: cover;">
+                     <div class="innerBox">
+                            <h4>To-Do List</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sapiente odio? Id sequi officiis molestias reiciendis laboriosam omnis mollitia.
+                                 <br> <br>
+                                <button style="height: 30px; width: 80px; border-radius: 10px; background-color: orange; border: none; ">Open</button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="col">
+                <div class="card" style="width: 18rem; height: 200px; background-image: url(homepagebg.webp); background-size: cover;">
+                     <div class="innerBox">
+                            <h4>Real-State</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sapiente odio? Id sequi officiis molestias reiciendis laboriosam omnis mollitia.
+                                 <br> <br>
+                                <button style="height: 30px; width: 80px; border-radius: 10px; background-color: orange; border: none; ">Open</button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="col">
+                <div class="card" style="width: 18rem; height: 200px; background-image: url(cloths\ bg.jpg); background-size: cover;">
+                   <div class="innerBox">
+                            <h4>Calculator</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sapiente odio? Id sequi officiis molestias reiciendis laboriosam omnis mollitia.
+                                <br> <br>
+                                <button style="height: 30px; width: 80px; border-radius: 10px; background-color: orange; border: none; ">Open</button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    
+        </div>
+    </div>
+
+    <!-- Contact-section -->
+
+    <div id="contact" style="background-color: black; color: white;  padding: 20px; height: 700px;">
+            <h2 style="border-bottom: 5px double orange; width: 170px; border-radius: 20px; text-align: center;">Contact
+        </h2> <br><br>
+
+        <h3 style="text-align: center; font-weight: 800; color: orange;">Contact For More Information</h3>
+        <h5 style="text-align: center;  font-weight: 800;">Avalible For Service</h5>
+
+        <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+            <div class="col" style="text-align: center;">
+                <img src="call ico.jpg" width="50px" height="40px" alt=""><br>
+                <b>Call Us</b>
+                <p>8226075452</p>
+            </div>
+            <div class="col">
+                <img src="emailico.png" width="50px" height="40px" alt=""><br>
+                <b>E-mail</b>
+            rathodY@gmail.com
+            </div>
+            <div class="col">
+                <img src="websiteico.webp" width="50px" height="40px" style="border-radius: 50px;" alt=""><br>
+                <b>Website</b>
+            <a href=""></a></div>
+            <div class="col">
+                <img src="locationico.png" width="50px" height="40px" alt=""><br>
+                <b>Location</b> <br>
+            <a href="https://www.google.com/maps">Our location</a></div>
+        </div>
+          <h3 style="text-align: center; font-weight: 800; color: orange;">Send me a E-mail</h3>
+        <h5 style="text-align: center;  font-weight: 800;">It's very easy to message</h5>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col">
+                <input type="text" placeholder="Name.." style="width: 100%;">
+            </div>
+            <div class="col">
+             <input type="text" placeholder="E-mail" style="width: 100%;">
+             </div>
+        </div>
+        <input type="text" placeholder="Subject.." style="width: 80%;"> <br>
+        <textarea name="" placeholder="message..." style="width: 60%; height: 100px;">Message</textarea>
+        <button type="submit" style="width: 100px; padding: 10px; font-size: 20px; font-weight: 700; background-color: green; color: white; border: none; border-radius: 10px;bottom: 30px; position: absolute;">Send</button>
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="profile.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".auto-typed", {
+        strings: ["a Web Developer"],
+        typeSpeed: 70,
+        backSpeed: 150,
+        loop: true
+    })
+</script>
+
+</html>
